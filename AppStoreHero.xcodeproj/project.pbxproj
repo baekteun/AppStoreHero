@@ -21,6 +21,7 @@
 		46A23320283A602300B25616 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2331F283A602300B25616 /* HomeView.swift */; };
 		46A23322283A622400B25616 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A23321283A622400B25616 /* CustomCorner.swift */; };
 		46A23325283A658B00B25616 /* ScaledButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A23324283A658B00B25616 /* ScaledButtonStyle.swift */; };
+		46A23328283A685C00B25616 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A23327283A685C00B25616 /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		46A2331F283A602300B25616 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		46A23321283A622400B25616 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		46A23324283A658B00B25616 /* ScaledButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledButtonStyle.swift; sourceTree = "<group>"; };
+		46A23327283A685C00B25616 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		46A232DE283A5E3C00B25616 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				46A23326283A685200B25616 /* extension */,
 				46A2331C283A5EEF00B25616 /* Model */,
 				46A2331B283A5EE900B25616 /* View */,
 				46A232DF283A5E3C00B25616 /* AppStoreHeroApp.swift */,
@@ -175,6 +178,14 @@
 				46A23324283A658B00B25616 /* ScaledButtonStyle.swift */,
 			);
 			path = ButtonStyle;
+			sourceTree = "<group>";
+		};
+		46A23326283A685200B25616 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				46A23327283A685C00B25616 /* View+Ext.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46A23328283A685C00B25616 /* View+Ext.swift in Sources */,
 				46A23309283A5E3E00B25616 /* ContentView.swift in Sources */,
 				46A23325283A658B00B25616 /* ScaledButtonStyle.swift in Sources */,
 				46A23322283A622400B25616 /* CustomCorner.swift in Sources */,

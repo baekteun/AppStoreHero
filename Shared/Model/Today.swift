@@ -30,3 +30,5 @@ extension Today {
         )
     ]
 }
+
+let dummyText = "LOREM djWjrn wjWjrn dlfjs Tlqejr"
