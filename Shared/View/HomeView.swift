@@ -32,7 +32,12 @@ struct HomeView: View {
                 .padding(.horizontal)
                 
                 ForEach(Today.todayDummy) { today in
-                    CardView(item: today)
+                    Button {
+                        
+                    } label: {
+                        CardView(item: today)
+                    }
+                    .buttonStyle(ScaledButtonStyle())
                 }
             }
             .padding(.vertical)
@@ -68,7 +73,9 @@ struct HomeView: View {
                     
                     Text(item.bannerTitle)
                         .font(.largeTitle.bold())
+                        .multilineTextAlignment(.leading)
                 }
+                .foregroundColor(.primary)
                 .padding()
             }
             
@@ -91,6 +98,7 @@ struct HomeView: View {
                         .font(.callout)
                         .foregroundColor(.gray)
                 }
+                .foregroundColor(.primary)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 
                 Button {
